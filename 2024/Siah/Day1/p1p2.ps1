@@ -1,4 +1,4 @@
-$pinput = Get-Content C:\Scripts\AoC\Day1\Input.txt
+$pinput = Get-Content .\input.txt
 [array]$Column1 = @()
 [array]$Column2 = @()
 $gap = 0
