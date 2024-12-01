@@ -1,3 +1,4 @@
+$start = Get-Date
 $pinput = Get-Content .\input.txt
 [array]$Column1 = @()
 [array]$Column2 = @()
@@ -27,3 +28,4 @@ ForEach($num in $Column1){
 
 Write-Host "Part 1: $gap"
 Write-Host "Part 2: $simscores"
+Write-Host "Elapsed time: $([math]::Round(((Get-Date) - $start).TotalSeconds,3)) seconds"
