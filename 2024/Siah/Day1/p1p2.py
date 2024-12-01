@@ -1,3 +1,5 @@
+import time
+start_time = time.time()
 Column1 = []
 Column2 = []
 gap = 0
@@ -23,3 +25,4 @@ for num in Column1:
 
 print("Part 1:",gap)
 print("Part 2:",simscores)
+print("Elapsed Time: %s seconds" % round((time.time() - start_time),3))
