@@ -5,7 +5,7 @@ Column2 = []
 gap = 0
 simscores = 0
 
-with open("./input.txt", 'r') as file:
+with open("input.txt", 'r') as file:
     for line in file:
         snums = line.split(' ')
         Column1.append(int(snums[0]))
